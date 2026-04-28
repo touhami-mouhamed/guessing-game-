@@ -40,7 +40,7 @@ input[type="number"]::-webkit-outer-spin-button {
     justify-content: space-between;
 }
 
-.section1 h3 {
+.section1 button {
     display: inline;
     background-color: aliceblue;
     color: #1b1b1b;
@@ -109,9 +109,9 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .section4 {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     gap: 15px;
 }
 
@@ -121,6 +121,16 @@ input[type="number"]::-webkit-outer-spin-button {
     align-self: center;
 }
 
+
+
+.simple-grid {
+    align-self: flex-start;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 15px;
+}
+
 .section4 input {
     outline: none;
     padding: 15px 20px;
@@ -128,8 +138,21 @@ input[type="number"]::-webkit-outer-spin-button {
     border: 5px solid #d7d6d6;
     color: aliceblue;
     font-size: 20px;
-
+    width: 35%;
+    text-align: center;
 }
+
+.section4 h4 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+.section4 h4:first-child {
+    margin-bottom: 20px;
+}
+
+
 
 p {
     position: absolute;

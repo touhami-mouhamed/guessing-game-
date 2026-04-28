@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="section1">
-            <h3>again!</h3>
+            <button id="reset">again!</button>
             <h5> (between 1 and 20)</h5>
         </div>
         <div class="section2">
@@ -21,7 +21,13 @@
             <h1>?</h1>
         </div>
         <div class="section4">
-            <input type="number" id="field">
+            <div class="simple-grid">
+                <input type="number" id="field">
+                <div class="score">
+                    <h4>Score: <span id="score">20</span></h4>
+                    <h4>highest score : <span id="highest">20</span></h4>
+                </div>
+            </div>
             <h5 class="hint">start guessing ...</h5>
             <button class="btn">check !</button>
         </div>
